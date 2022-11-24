@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/itemLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:orientation="horizontal"
+    android:backgroundTint="#80D8FF"
+    android:background="@drawable/round">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_weight="3.7"
+        android:gravity="center">
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/view_prod_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="상품명"
+            android:textSize="7pt"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:gravity="center">
+
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/textView123"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="구매일자 :"
+            android:textSize="7pt"
+            android:textStyle="italic"
+            />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/view_prod_purchasedate"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="0.7"
+            android:text="구매일자"
+            android:textSize="7pt"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

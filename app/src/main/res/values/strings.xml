@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">projectmobile</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">상품등록</string>
+    <string name="title_dashboard">냉장고</string>
+    <string name="title_notifications">마이페이지</string>
+</resources>

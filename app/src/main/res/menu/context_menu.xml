@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/freezer"
+        android:title="냉동실"/>
+    <item
+        android:id="@+id/refrigerator"
+        android:title="냉장실"/>
+    <item
+        android:id="@+id/room"
+        android:title="실온보관"/>
+</menu>
